@@ -1,23 +1,43 @@
-/*Main Area*/
+/*Background Area*/
 
 .CodeMirror,
 .CodeMirror-scroll {
-    background-color: #80FFFF;
+    background-color: #99FFFF;
     color: #003D66;
 }
+
+
+/* Sidebar(line count)*/
 
 .CodeMirror .CodeMirror-scroll .CodeMirror-gutters {
     background: #4DFFFF;
     //border-right: 1px solid #1489FF;
 }
 
+
+/*Cursor settings...*/
+
 .CodeMirror-cursor {
-    border-left: 1px solid #ede0ce;
+    border-left: 2px solid #002D17;
 }
 
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
     border-left: none;
-    border-bottom: 2px solid #ede0ce;
+    border-bottom: 1px solid #00FF99;
+}
+
+
+/*variable definition*/
+
+.cm-def {
+    color: inherit;
+}
+
+
+/* Operators between key and value*/
+
+.cm-operator {
+    color: inherit;
 }
 
 
@@ -40,4 +60,57 @@
 
 .cm-property {
     color: #0000F4;
+}
+
+
+/*String values in key-value pair*/
+
+.cm-string {
+    color: #00A47B;
+}
+
+
+/*Comment*/
+
+.cm-comment {
+    color: #9494B8;
+}
+
+
+/********** HTML styles *********/
+
+
+/*Meta tags*/
+
+.cm-meta {
+    color: #007D5D;
+}
+
+
+/*Element class(.)*/
+
+.cm-qualifier {
+    font-weight: bolder;
+}
+
+
+/*Element id(#)*/
+
+.cm-builtin {
+    font-weight: bolder;
+}
+
+
+/*HTML Tag*/
+
+.cm-tag {
+    color: #006BB3;
+    font-weight: bolder;
+}
+
+
+/*Key in key-value pair inside a tag*/
+
+.cm-attribute {
+    color: #003D66;
 }

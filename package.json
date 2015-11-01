@@ -2,14 +2,14 @@
     "name": "zahid_wakeel.plasma-light",
     "title": "Plasma Light Theme",
     "description": "Based on the essence of plasma lights!",
-    "homepage": "https://github.com/yourname/my-shiny-theme",
+    "homepage": "https://github.com/rfzahid/Brackets-Plasma-Light-Theme",
     "version": "1.0.0",
-    "author": "Zahid Wakeel <zhdwkl@gmail.com> (http://your.url)",
+    "author": "Zahid Wakeel <zhdwkl@gmail.com> (https://github.com/rfzahid)",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
         "dark": true,
         "addModeClass": true
     },
-    "keywords": ["theme", "light", "plasma", "blue"]
+    "keywords": ["theme", "light", "plasma", "blue", "c", "c++", "ocean", "water"]
 }

@@ -35,12 +35,18 @@
     color: darkgreen;
 }
 
+
+/*Matching brackets color*/
+
 .CodeMirror-matchingbracket,
 {
     background-color: #FFCCFF;
     color: #FF4DFF !important;
     font-weight: bolder;
 }
+
+
+/*Matching tag colors*/
 
 .CodeMirror-matchingtag {
     background-color: #FFAAD4;
@@ -49,10 +55,44 @@
 }
 
 
+/*Searching texts color*/
+
+.CodeMirror-searching {
+    background-color: #DB7171;
+    color: skyblue!important;
+    &.searching-current-match {
+        background-color: #BE3030;
+        color: skyblue;
+        font-weight: bold;
+    }
+}
+
+
 /*Selected region color*/
 
 .CodeMirror .CodeMirror-selected {
-    background: #FF2A2A;
+    background: #0BFFC2;
+}
+
+
+/*First topbar*/
+
+#first-pane {
+    background: #6666FF !important;
+}
+
+
+/*Second topbar*/
+
+#second-pane {
+    background: #6666FF !important;
+}
+
+
+/*Topbar in focus*/
+
+.pane-header {
+    background: #8080FF !important;
 }
 
 
@@ -75,23 +115,30 @@
 
 /*Value in key-value pair*/
 
-.cm-atom,
+.cm-atom {
+    color: #007D3E;
+}
+
+
+/*Link styles*/
+
 .cm-link {
     color: #007D3E;
+    text-decoration: underline;
 }
 
 
 /*Numbers*/
 
 .cm-number {
-    color: green;
+    color: blue;
 }
 
 
 /*Key in key-value pair */
 
 .cm-property {
-    color: #0000F4;
+    color: blueviolet;
 }
 
 
@@ -117,39 +164,52 @@
 }
 
 
-/*.cm-hr {
-    color: @cmHr;
-}*/
+/*Keywords reserved for programming language*/
 
 .cm-keyword {
-    color: blue;
+    color: #DB4DFF;
 }
+
+
+/*String values in key-value pair*/
 
 .cm-string-2 {
     color: #00A47B;
 }
 
+
+/*Brackets color*/
+
 .cm-bracket {
     color: #4D94FF;
 }
 
+
+/*Variables declaration color*/
+
 .cm-variable {
-    color: black;
+    color: darkslategrey;
 }
+
+
+/*Variables declaration color*/
 
 .cm-variable-2 {
-    color: black;
+    color: darkslategrey;
 }
 
+
+/*Variables declaration color*/
+
 .cm-variable-3 {
-    color: black;
+    color: darkslategrey;
 }
 
 
 /*Meta tags*/
 
 .cm-meta {
-    color: #007D5D;
+    color: black;
 }
 
 
@@ -178,5 +238,20 @@
 /*Key in key-value pair inside a tag*/
 
 .cm-attribute {
-    color: #003D66;
+    color: blueviolet;
+}
+
+
+/*ImageView region background color*/
+
+.image-view,
+.not-editor {
+    background-color: white;
+}
+
+
+/*ImageView region text color*/
+
+.view-pane .image-view {
+    color: skyblue;
 }
